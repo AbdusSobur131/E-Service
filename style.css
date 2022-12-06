@@ -1,0 +1,131 @@
+.navbar-brand span{
+    color: darkorange;
+    font-size: 30px;
+}
+
+
+
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto auto;
+    background-color: teal;
+    justify-content: center;
+
+}
+.flex-container > div{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    padding: 20px;
+    margin: 50px 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.frst,.second,.rd,.th4,.th5{
+    color: white;
+    font-size: 10px;
+}
+
+.frst:hover,.second:hover,.rd:hover,.th4:hover,.th5:hover{
+    background-color: black;
+    color: white;
+}
+.first p{
+    font-size: 5px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-column-gap: 10px;
+    grid-row-gap:10px ;
+}
+.card-container >div{
+    background-color: #75003F;
+    height: auto;
+    text-align: center;
+
+}
+.card-first img{
+    border-radius: 10px;
+
+}
+.card-first p,.card-second p,.card-third p,.card-four p{
+    color: white;
+
+}
+.card-second img{
+    border-radius: 5px;
+}
+
+
+
+
+.main-container{
+    background-color: #75003F;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.main-container >div{
+   
+    margin: 30px 30px;
+}
+.main-first{
+    max-width: 65%;
+    height: 350px;
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+.main-first p{
+    box-sizing:border-box;
+    padding: 40px;
+    margin: 30px;
+    color: white;
+    font-size: 70px;
+}
+.main-second{
+    height: 350px;
+    width: 30%;
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px lightgrey;
+
+}
+.main-second:hover{
+    background-color: black;
+}
+
+    
+
+.footer-container{
+    display: flex;
+    background-color: gray;
+    
+}
+.footer-container >div{
+    background-color: teal;
+    margin: 10px;
+    padding: 30px;
+    height: auto;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer{
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-color:black;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+}
